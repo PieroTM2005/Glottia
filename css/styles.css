@@ -109,6 +109,23 @@
     color: white;
 }
 
+.Sign {
+    padding: 10px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 16px;
+    font-family:"Raleway", sans-serif ;
+}
+
+.Sign:hover {
+    background-color: #379683;
+    color: white;
+}
 
 /*Estilos de las Cartas-Eventos Conversacionales*/
 
@@ -318,7 +335,7 @@
 .Register-Section {
     padding: 40px 20px;
     margin-top: 0px;
-    height: 400px;
+    height: 600px;
     width: auto;
 }
 
@@ -373,6 +390,7 @@
 .form-group {
     margin-bottom: 20px;
     text-align: left;
+
 }
         
 .form-container label {
@@ -390,10 +408,24 @@
     box-sizing: border-box;
 }
 
+.form-container select{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
 .button-group {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+}
+
+.form-group-check label{
+    display: flex;
+}
+.form-group-check input{
+    width: 30px;
 }
 
 .btn {
@@ -427,6 +459,7 @@
 
 .footer-section img{
     border-radius: 50px;
+    margin-top: 10px;
 }
 
 .footer-container {
@@ -439,6 +472,11 @@
 .footer-column {
     width: 10%;
     margin-top: 30px;
+}
+.footer-column-img{
+    width: 10%;
+    margin-top: 10px;
+    cursor: pointer;
 }
 
 .footer-column h3 {
